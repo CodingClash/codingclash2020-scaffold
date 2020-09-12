@@ -51,3 +51,26 @@ to specify which map the game is played on, use the *--map* argument:
 ```
 python3 run.py bots/sample/ bots/sample/ --map circular.map --save replay.txt
 ```
+
+## Visualizer
+
+To watch a game play out and easily see stats, the blockchain, debug logs and more, 
+view your replay files using the visualizer. First, open up *index.html* in the 
+*visualizer/* folder in your browser by either double-clicking on the file in file 
+explorer, or by running:
+
+```
+google-chrome index.html
+```
+
+For Windows:
+
+```
+start chrome index.html
+```
+
+**Commands may vary based on browser**
+
+## Coding your own bot
+
+**Coming soon**
