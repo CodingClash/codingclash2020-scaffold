@@ -2,8 +2,15 @@
 
 ## Engine Installation
 To install the engine as a local package, open your [terminal](https://askubuntu.com/questions/38162/what-is-a-terminal-and-how-do-i-open-and-use-it) and run
+
 ```
 pip install --upgrade codingclash2020
+```
+
+Then, to install the requirements for the engine, run
+
+```
+pip install -r requirements.txt
 ```
 
 (Depending on how your pip is set up, you may need to replace `pip` with `pip3`.) 
