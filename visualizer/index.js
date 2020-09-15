@@ -293,6 +293,19 @@ function uploadReplay(){
     fileReader.readAsText($('#myFile').prop('files')[0]);
 }
 
+function uploadURLReplay(){
+    let fileReader = new FileReader();
+    fileReader.onload = () => processReplay(fileReader.result);
+
+    var request = new XMLHttpRequest();
+    request.open('GET', $('#myUrl')[0].value, true);
+    request.responseType = 'blob';
+    request.onload = function() {
+        fileReader.readAsText(request.response);
+    };
+    request.send();
+}
+
 function keydown(e){
     console.log(e.code);
     switch(e.code){

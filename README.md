@@ -78,6 +78,5 @@ start chrome index.html
 
 **Commands may vary based on browser**
 
-## Coding your own bot
+**Special thanks to @Jay Jayjay for implementing url replay uploads for the visualizer!**
 
-**Coming soon**

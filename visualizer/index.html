@@ -11,7 +11,10 @@
         <div id="stats" style="flex-grow: 100; padding: 5px; display: block;">
             <label class="btn-secondary btn-sm btn-block">
                 Upload Replay File:
-                <input type="file" id="myFile" name="filename" class="ml-3" accept="text/plain" onchange="uploadReplay();">
+                <input type="file" id="myFile" name="filename" class="ml-3" accept="text/plain">
+                <input type="url" id="myUrl" class="ml-3">
+                <button onclick="uploadReplay();">Upload File Replay</button>
+                <button onclick="uploadURLReplay();">Upload URL Replay</button>
             </label>
             <div class="btn-toolbar mb-3" role="toolbar">
                 <button class="btn btn-primary mr-2" onclick="updateBoardNum(board_num - 1);">Prev</button>
